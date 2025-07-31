@@ -1,0 +1,29 @@
+# Carpeta de compilación de Rust
+/target/
+
+# Archivos de configuración de dependencias
+Cargo.lock
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos temporales del sistema
+*.swp
+*.swo
+*~
+
+# Archivos de logs
+*.log
+
+# Archivos de entorno (variables sensibles)
+.env
+.env.*
+
+# Archivos de pruebas y cobertura
+/coverage/
+*.profraw
+
+# Otros archivos que no quieras compartir
+.DS_Store
+Thumbs.db
